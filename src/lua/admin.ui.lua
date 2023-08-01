@@ -245,7 +245,7 @@ local IsSupportedExploit = isfile and isfolder and writefile and readfile
 
 local GetThemeConfig
 local WriteThemeConfig = function(Conf)
-    if (IsSupportedExploit and isfolder("fates-admin")) then
+    if (IsSupportedExploit and isfolder("skool-admin")) then
         local ToHSV = Color3.new().ToHSV
         local ValuesToEncode = deepsearchset(Values, function(i, v)
             return typeof(v) == 'Color3'
